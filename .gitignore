@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 環境・認証情報
+.env
+*.json         # サービスアカウント鍵は絶対除外
+credentials/
+token_*
+
+# OS
+.DS_Store
+
+
+# Notebookやデータ関連
+data/
+tmp/
+outputs/
